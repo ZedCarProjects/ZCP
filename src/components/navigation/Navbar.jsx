@@ -24,6 +24,7 @@ function Navbar() {
             src={zcpLogo}
             alt="Zed Car Projects logo"
             className="h-14 sm:h-16 w-auto object-contain"
+            style={{ height: 49 }}
           />
         </Link>
 
