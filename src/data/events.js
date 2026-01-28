@@ -1,52 +1,31 @@
 import autofestPoster from '../assets/Autofest 2026 poster.jpeg';
+import autofest2025 from '../assets/Autofest 2025 poster.jpeg';
 
 export const upcomingEvents = [
   {
     id: 'autofest',
     name: 'Zed Car Projects Auto Fest vol. 4',
     date: '2026-08-22T10:00:00+02:00',
-    location: 'Kenneth Kaunda (Long Acres) Mall, Lusaka',
+    location: 'Location: TBA',
     type: 'Car Meet Showcase',
     description:
-      'Annual Auto Festival showcasing some of the best categorical builds',
+      'The Zed Car Projects Auto Festival is back for its 4th Edition. Bringing together more custom builds and exotic cars for a day of pure automotive passion. From clean paint jobs, to powerful sound systems and perfectly dialed stances, this is where creativity and craftsmanship shine. Cars will be on display and judged in categories like best paint, sound system, stance, overall car, and custom build. Whether you’re entering your build or just coming to admire the machines, Auto Festival is all about celebrating car culture, community, and the love of the build. Don’t miss the fourth chapter of this growing automotive movement.',
     image: autofestPoster,
+    ticketLink: "https://www.nova.co.zm/events/zed-car-projects-presents-auto-festival-2026/details",
     featured: true
   },
-  {
-    id: 'copperbelt-autocross',
-    name: 'Copperbelt Autocross Series Round 1',
-    date: '2026-03-08T09:00:00+02:00',
-    location: 'Kitwe Motocross & Autocross Grounds',
-    type: 'Autocross',
-    description:
-      'Timed laps, cones and tight layouts designed for drivers who want to push their cars safely.',
-    image:
-      'https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    featured: false
-  }
 ];
 
 export const pastEvents = [
   {
-    id: 'new-year-rollout-2025',
-    name: 'New Year Rollout 2025',
-    date: '2025-01-04T16:00:00+02:00',
-    location: 'Manda Hill to Levy Junction, Lusaka',
-    type: 'Cruise',
+   id: 'autofest25',
+    name: 'Zed Car Projects Auto Fest vol. 3',
+    date: '2025-08-23T10:00:00+02:00',
+    location: 'Long Acres Mall(Basement), Lusaka, Zambia',
+    type: 'Autocross',
     description:
-      'Highway rollout and city cruise welcoming the new year with a mix of builds from across Zambia.',
-    image:
-      'https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&w=1600'
+      'Timed laps, cones and tight layouts designed for drivers who want to push their cars safely.',
+    image: autofest2025,
+    featured: false
   },
-  {
-    id: 'copperbelt-drift-day',
-    name: 'Copperbelt Drift Day',
-    date: '2025-09-20T10:00:00+02:00',
-    location: 'Kitwe Motocross Park',
-    type: 'Drift Exhibition',
-    description:
-      'Grassroots drift sessions with local S-chassis, BMWs and crowd-favourite tandems.',
-    image:
-      'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  }
 ];

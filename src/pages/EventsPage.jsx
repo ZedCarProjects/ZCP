@@ -132,6 +132,20 @@ function EventsPage() {
               </div>
 
               <p className="text-sm text-gray-200">{activeEvent.description}</p>
+
+              {activeEvent.ticketLink && activeEvent.scope === 'upcoming' && (
+                <div className="pt-4">
+                  <a
+                    href={activeEvent.ticketLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-lg bg-zcp-yellow px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-black hover:opacity-90 transition"
+                  >
+                    Buy Tickets Now
+                  </a>
+                </div>
+              )}
+
             </div>
           </div>
         </div>
